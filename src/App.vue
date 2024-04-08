@@ -1,6 +1,6 @@
 <template>
   <v-layout class="rounded rounded-md">
-    <v-app-bar title="">
+    <v-app-bar title="M 2.2">
       <template v-slot:prepend>
          <v-app-bar-nav-icon @click.stop="barOpen = !barOpen" ></v-app-bar-nav-icon>
       </template>
@@ -12,7 +12,7 @@
       <v-divider></v-divider>
       <v-list-item prepend-icon="mdi-home"  link to="/" title="Home"></v-list-item>
       <v-list-item prepend-icon="mdi-image" link to="/imagen"  title="Imagenes"></v-list-item>
-      <v-list-item prepend-icon="mdi-table" link to="/tabla" title="Tabla de datos"></v-list-item>
+      <v-list-item prepend-icon="mdi-table" link to="/tabla" title="Tabla de datosss"></v-list-item>
     </v-navigation-drawer>
 
     <v-main class="d-flex align-center justify-center mt-5" style="min-height: 300px;">
